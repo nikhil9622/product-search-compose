@@ -1,7 +1,7 @@
-<h1 align="center">E-commerce Compose App</h1></br>
+<h1 align="center">Product Search Compose</h1></br>
 <p align="center">  
 
-A sample e-commerce app built with [Jetpack Compose](https://developer.android.com/jetpack/compose/) and Android Architecture Components.
+A product browsing and search app built with [Jetpack Compose](https://developer.android.com/jetpack/compose/) and Android Architecture Components.
 
 </p></br>
 
@@ -18,7 +18,8 @@ The upstream repository does not include a declared open-source license, so this
 the original attribution and should be published as a fork or only after permission to
 redistribute has been confirmed.
 
-My changes are documented separately below and are limited to search usability and tests.
+The project focuses on product browsing and search usability. My changes are documented
+separately below and are limited to search behavior, empty states, and tests.
 
 ## Screenshots (Dark Theme & Light Theme)
 
