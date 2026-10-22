@@ -33,6 +33,7 @@
     <string name="shopping_list_item_deleted_txt">Product deleted from cart.</string>
     <string name="remember_me_str">Remember me</string>
     <string name="search_hint">Search Product</string>
+    <string name="no_products_found">No products found</string>
     <string name="title_shopping_cart">Shopping Cart</string>
     <string name="title_profile">Profile</string>
     <string name="title_product_info">Product Info</string>

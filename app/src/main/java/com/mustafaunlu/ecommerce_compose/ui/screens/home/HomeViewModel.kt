@@ -48,6 +48,11 @@ class HomeViewModel @Inject constructor(
     }
 
     fun searchProduct(query: String) {
+        if (shouldLoadAllProducts(query)) {
+            getAllProducts()
+            return
+        }
+
         viewModelScope.launch {
             searchProductUseCase(query).onEach {
                 when (it) {

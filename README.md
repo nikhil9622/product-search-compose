@@ -10,6 +10,16 @@ A sample e-commerce app built with [Jetpack Compose](https://developer.android.c
   <a href="https://github.com/mustfaunlu"><img alt="Profile" src="https://img.shields.io/badge/github-mustfaunlu-blue"/></a> 
 </p>
 
+## Portfolio note
+
+This is a learning project based on
+[mustfaunlu/Ecommerce-Compose](https://github.com/mustfaunlu/Ecommerce-Compose).
+The upstream repository does not include a declared open-source license, so this copy preserves
+the original attribution and should be published as a fork or only after permission to
+redistribute has been confirmed.
+
+My changes are documented separately below and are limited to search usability and tests.
+
 ## Screenshots (Dark Theme & Light Theme)
 
 ### App videos are available at the bottom of the page.
@@ -118,4 +128,23 @@ firestore and messaging.
   the foreground, you will be directed to the login screen. This ensures the security of your
   session and requires you to log in again only if necessary.</br>
 
+## Portfolio contribution
 
+This repository is based on the original Ecommerce Compose project by
+[mustfaunlu](https://github.com/mustfaunlu), with attribution retained.
+
+Personal contribution:
+
+- Restored the full product list when the search field is cleared, so users can return from search
+  results without restarting the screen.
+- Added an explicit empty-results state for searches that do not match any products.
+- Added unit tests for restoring the full product list when a search query is blank.
+
+## Build locally
+
+Use Java 17 with the included Gradle wrapper:
+
+```powershell
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-17"
+.\gradlew.bat assembleDebug
+```
